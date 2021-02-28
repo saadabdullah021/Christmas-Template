@@ -1,0 +1,388 @@
+    /* ==========================Responsive Design For Index Page Only ======*/
+    
+    @media (min-width: 1281px) {}
+    /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+    
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        .top-btn {
+            position: relative;
+            left: 60px;
+        }
+        .newsletter {
+            position: relative;
+            margin-top: 20px;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        #clock {
+            font-size: 16px;
+        }
+        .Product-area .row .pic-des h3 {
+            font-size: medium;
+        }
+        .Product-area .image {
+            position: relative;
+            top: 30px;
+        }
+        .Product-area .row .pic-des p {
+            font-size: medium;
+            line-height: 18px;
+        }
+        .newsletter {
+            position: relative;
+            margin-top: 20px;
+        }
+        .product-area {
+            position: relative;
+            top: 120px;
+        }
+        .shop-btn button {
+            border: none;
+            font-size: small;
+            width: 155px !important;
+            margin: 0px 0px 5px;
+            height: 45px;
+        }
+        .shop-btn i {
+            display: auto;
+        }
+        .carousel-content p {
+            color: white;
+            padding: 5px;
+            text-align: center;
+            font-size: large;
+        }
+        .right-icons .fab {
+            width: 35px;
+            line-height: 35px;
+            height: 35px;
+            position: relative;
+            font-size: 16px;
+            margin: -10px;
+        }
+        .top-btn {
+            position: relative;
+            left: 30px;
+        }
+        .footer-area .second-col p {
+            color: white;
+            font-size: small;
+            font-family: monospace !important;
+            width: 100%;
+        }
+        #right-column {
+            display: block !important;
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #right-column h2,
+        #right-column address {
+            text-align: center;
+            line-break: unset !important;
+            position: relative;
+        }
+        #map {
+            display: flex;
+            justify-content: center;
+        }
+        .enquiry-form {
+            position: relative;
+            display: block !important;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 30px !important;
+            left: 40px;
+        }
+        .enquiry-form h2,
+        .enquiry-form p {
+            text-align: center;
+            width: 320px;
+            position: relative;
+            left: -50px;
+        }
+        .enquiry-form input,
+        .enquiry-form textarea {
+            min-width: 350px;
+            width: 450px;
+            display: block;
+            position: relative;
+            left: -80px !important;
+        }
+        #submit {
+            position: relative;
+            left: 100px;
+        }
+        #resetform {
+            position: relative;
+            left: -200px;
+            width: 120px;
+        }
+        .footer-area {
+            position: relative;
+            top: 30px;
+        }
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        .Product-area .row {
+            display: block !important;
+            margin: auto;
+        }
+        .Product-area .row .pic-des p {
+            text-align: justify;
+            font-size: medium;
+            line-height: 18px;
+        }
+        #Aboutus-area {
+            position: relative;
+            top: 40px;
+        }
+        #Aboutus-area .btn {
+            font-size: large;
+            left: 35%;
+            position: relative;
+            bottom: 10px;
+            top: 5px;
+        }
+        #shipping {
+            position: relative;
+            top: 30px;
+        }
+        .carousel-content p {
+            color: white;
+            width: 80%;
+            position: relative;
+            left: 10%;
+            top: 2%;
+            padding: 5px;
+            text-align: center;
+            font-size: small;
+        }
+        .top-btn {
+            position: relative;
+            left: 80px;
+        }
+        .footer-area .second-col p {
+            color: white;
+            font-size: medium;
+            font-family: monospace !important;
+            width: 100%;
+            text-align: center !important;
+        }
+        #right-column {
+            display: block !important;
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #right-column h2,
+        #right-column address {
+            text-align: center;
+            line-break: unset !important;
+            position: relative;
+        }
+        #map {
+            display: flex;
+            justify-content: center;
+        }
+        .enquiry-form {
+            position: relative;
+            display: block !important;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 30px !important;
+            left: -40px;
+        }
+        .enquiry-form h2,
+        .enquiry-form p {
+            text-align: center;
+            width: 320px;
+            position: relative;
+            left: -10px;
+        }
+        .enquiry-form input,
+        .enquiry-form textarea {
+            min-width: 350px;
+            width: 450px;
+            display: block;
+            position: relative;
+            left: -80px !important;
+        }
+        #submit {
+            position: relative;
+            left: 10px;
+        }
+        #resetform {
+            position: relative;
+            left: -280px;
+            width: 120px;
+        }
+        .footer-area {
+            position: relative;
+            top: 30px;
+        }
+    }
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+        #Aboutus-area {
+            position: relative;
+            top: 40px;
+        }
+        #Aboutus-area #companylogo img {
+            width: 300px;
+            height: 300px;
+        }
+        #Aboutus-area p {
+            text-align: center;
+            font-size: large;
+        }
+        #Aboutus-area .Product-area .row {
+            display: block;
+            margin: auto;
+        }
+        #Aboutus-area .btn {
+            font-size: large;
+            left: 35%;
+            position: relative;
+            bottom: 10px;
+            top: 5px;
+        }
+        .Product-area .row {
+            display: block;
+        }
+        .Product-area .row .pic-des p {
+            text-align: justify;
+            font-size: small;
+            line-height: 18px;
+        }
+        #shipping {
+            position: relative;
+            top: 20px;
+        }
+        #shipping p {
+            font-size: large;
+            text-align: justify;
+        }
+        .carousel-content p {
+            color: white;
+            width: 80%;
+            position: relative;
+            left: 10%;
+            top: 4%;
+            padding: 5px;
+            text-align: center;
+            font-size: xx-small;
+        }
+        .Product-area .row #btn {
+            height: 40px;
+            min-width: 120px;
+            font-size: 16px;
+        }
+        .product-area h2 {
+            position: relative;
+            top: 15px;
+            font-size: larger;
+        }
+        .col-sm-3 img {
+            display: block;
+            margin: 0 auto;
+        }
+        .product-area .col-sm-3 p {
+            text-align: center;
+        }
+        .shop-btn {
+            position: relative;
+            bottom: 5%;
+        }
+        .shop-btn button {
+            border: none;
+            width: 150px;
+            display: inline-block;
+            left: 8% !important;
+        }
+        .shop-btn i {
+            display: inline;
+        }
+        .top-btn {
+            position: relative;
+            left: 20px !important;
+            top: -10px;
+        }
+        .footer-area .second-col p {
+            color: white;
+            font-size: small;
+            font-family: monospace !important;
+            width: 100%;
+            text-align: center !important;
+        }
+        #right-column {
+            display: block !important;
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #right-column h2,
+        #right-column address {
+            text-align: center;
+            line-break: unset !important;
+            position: relative;
+        }
+        #map {
+            display: flex;
+            justify-content: center;
+        }
+        .enquiry-form {
+            position: relative;
+            display: block !important;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            top: 30px !important;
+            left: 40px;
+        }
+        .enquiry-form h2,
+        .enquiry-form p {
+            text-align: center;
+            width: 300px;
+            position: relative;
+            left: -100px;
+        }
+        .enquiry-form input,
+        .enquiry-form textarea {
+            min-width: 350px;
+            width: 450px;
+            display: block;
+            position: relative;
+            left: -120px !important;
+        }
+        #submit {
+            position: relative;
+            left: -100px;
+        }
+        #resetform {
+            position: relative;
+            left: -420px;
+            width: 120px;
+        }
+        .footer-area {
+            position: relative;
+            top: 30px;
+        }
+    }
+    /* ===========End Responsive Design for Index Page =========================*/
